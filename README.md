@@ -4,7 +4,7 @@
 
 <h1 align="center">Open Source in Editor Tab</h1>
 
-<p align="center">Jump from a changed file in the Commit window or a diff straight to its normal editor tab in IntelliJ IDEA.</p>
+<p align="center">Jump from a changed file in the Commit window straight to its normal editor tab in IntelliJ IDEA.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-25-007396.svg" alt="Java 25">
