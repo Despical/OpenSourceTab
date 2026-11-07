@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-25-007396.svg" alt="Java 25">
-  <img src="https://img.shields.io/badge/IntelliJ_IDEA-2026.2%2B-000000?logo=intellijidea&amp;logoColor=white" alt="IntelliJ IDEA 2026.2+">
+  <img src="https://img.shields.io/badge/IntelliJ_IDEA-2026.2%2B-6B57FF?logo=intellijidea&amp;logoColor=white" alt="IntelliJ IDEA 2026.2+">
   <img src="https://img.shields.io/badge/Gradle-9.8-079ec0?logo=gradle&amp;logoColor=white" alt="Gradle">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT license"></a>
   <a href="https://github.com/Despical/OpenSourceTab/releases/latest"><img src="https://img.shields.io/github/v/release/Despical/OpenSourceTab" alt="Latest release"></a>
@@ -21,7 +21,6 @@
 ## Features
 
 - **Open Source in Editor Tab** is the first entry in the Commit tool window's right-click menu.
-- A toolbar button in the diff viewer, placed after *Collapse Unchanged Fragments*.
 - Opens the real file in a regular editor tab, or focuses the tab if the file is already open.
 
 ## Installation
@@ -35,7 +34,6 @@ Requires IntelliJ IDEA 2026.2 (build 262) or newer.
 ## Usage
 
 - In the **Commit** tool window, right-click a changed file and choose **Open Source in Editor Tab**.
-- In a diff tab, click the pencil button next to the collapse icon in the toolbar.
 
 You can also assign a shortcut under **Settings → Keymap → Open Source in Editor Tab**.
 
