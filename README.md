@@ -18,6 +18,10 @@
 
 ---
 
+<p align="center">
+  <img src="assets/screenshot.png" width="560" alt="Open Source in Editor Tab in the Commit window context menu">
+</p>
+
 ## Features
 
 - **Open Source in Editor Tab** is the first entry in the Commit tool window's right-click menu.

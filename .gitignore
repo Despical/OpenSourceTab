@@ -1,6 +1,8 @@
 .gradle/
 build/
 .intellijPlatform/
-.idea/
+.idea/*
+!.idea/icon.svg
 *.iml
 out/
+.shot*
