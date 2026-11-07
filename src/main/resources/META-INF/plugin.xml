@@ -1,0 +1,33 @@
+<idea-plugin>
+  <id>dev.despical.opensourcetab</id>
+  <name>Open Source in Editor Tab</name>
+  <vendor email="berkeakcen@gmail.com" url="https://despical.dev">Despical</vendor>
+  <category>Version Control</category>
+
+  <description><![CDATA[
+    Adds an <b>Open Source in Editor Tab</b> action to the Commit tool window and to the diff viewer.
+    <ul>
+      <li>Right-click a changed file in the Commit tool window: the action is the first menu entry.</li>
+      <li>In a diff tab: a toolbar button next to <i>Collapse Unchanged Fragments</i>.</li>
+      <li>Opens the real file in a normal editor tab, or focuses its tab if it is already open.</li>
+    </ul>
+    <a href="https://github.com/Despical/OpenSourceTab">Source code and issues</a>
+  ]]></description>
+
+  <change-notes><![CDATA[
+    <b>1.0.0</b> - Initial release.
+  ]]></change-notes>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <actions>
+    <action id="OpenSourceTab.Open"
+            class="dev.despical.opensourcetab.OpenSourceTabAction"
+            text="Open Source in Editor Tab"
+            description="Open the real file in a normal editor tab, or focus its tab if it is already open"
+            icon="AllIcons.Actions.EditSource">
+      <add-to-group group-id="ChangesViewPopupMenu" anchor="first"/>
+      <add-to-group group-id="Diff.ViewerToolbar" anchor="last"/>
+    </action>
+  </actions>
+</idea-plugin>
